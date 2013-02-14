@@ -1,0 +1,21 @@
+{
+  "name": "Facebook Ads Remover",
+  "version": "0.9",
+  "background": { "scripts": ["scripts/jquery-1.9.1.min.js","scripts/hideAds.js","scripts/background.js"] },
+   "icons": { "128": "images/FacebookAds-128.png" },
+   "permissions": [
+	"tabs",
+    "http://*.facebook.com/*"
+	,
+    "https://*.facebook.com/*"
+  ],
+  "browser_action": {
+    "name": "Remove the Ads on Facebook",
+	"default_icon": {                   
+      "19": "images/FacebookAds-19.png",         
+      "38": "images/FacebookAds-38.png"         
+    }
+    
+  },
+  "manifest_version": 2
+}
